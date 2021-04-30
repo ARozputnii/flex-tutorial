@@ -1,0 +1,47 @@
+<section>
+  <h2 class="title">flex-wrap: nowrap;</h2>
+
+  <div class="flex">
+    <div class="blocks-sm">
+      <h2>display: flex;</h2>
+      <h2>-webkit-flex-wrap: nowrap;</h2>
+      <div class="blocks-sm__flex-wrap_nowrap">
+        <% 3.times do |i| %>
+          <div class="block-sm"><h3><%= i + 1 %></h3></div>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="blocks-sm">
+      <h2>display: flex;</h2>
+      <h2>-webkit-flex-direction: row-reverse;</h2>
+      <div class="blocks-sm__flex-direction_row-reverse">
+        <% 3.times do |i| %>
+          <div class="block-sm"><h3><%= i + 1 %></h3></div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex">
+    <div class="blocks-sm">
+      <h2>display: flex;</h2>
+      <h2>-webkit-flex-direction: column;</h2>
+      <div class="blocks-sm__flex-direction_column">
+        <% 2.times do |i| %>
+          <div class="block-sm"><h3><%= i + 1 %></h3></div>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="blocks-sm">
+      <h2>display: flex;</h2>
+      <h2>-webkit-flex-direction: column-reverse;</h2>
+      <div class="blocks-sm__flex-direction_column-reverse">
+        <% 2.times do |i| %>
+          <div class="block-sm"><h3><%= i + 1 %></h3></div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>

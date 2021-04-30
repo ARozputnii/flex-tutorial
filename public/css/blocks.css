@@ -1,0 +1,30 @@
+.blocks {
+    display: flex;
+    margin: 1%;
+    padding: 30px;
+    border: 2px solid #1affff;
+    background-color: #99ffff;
+}
+.blocks-sm {
+    padding: 30px;
+    margin: 1%;
+    width: 100%;
+    border: 2px solid #1affff;
+    background-color: #99ffff;
+}
+.blocks-sm__flex-direction_row {
+    display: flex;
+    -webkit-flex-direction: row;
+}
+.blocks-sm__flex-direction_row-reverse {
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+}
+.blocks-sm__flex-direction_column {
+    display: flex;
+    -webkit-flex-direction: column;
+}
+.blocks-sm__flex-direction_column-reverse {
+    display: flex;
+    -webkit-flex-direction: column-reverse;
+}

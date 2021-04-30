@@ -1,0 +1,27 @@
+@import "blocks.css";
+@import "block.css";
+
+body {
+	background: beige;
+}
+h1 {
+	font-size: 40px;
+	color: #00394d;
+	text-align: center;
+	padding-bottom: 1%;
+}
+h2 {
+	color: #00394d;
+}
+h3 {
+	text-align: center;
+	padding-top: 25%;
+}
+.title {
+	font-size: 30px;
+	margin: 2%;
+}
+
+.flex {
+	display: flex;
+}

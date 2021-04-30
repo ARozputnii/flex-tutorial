@@ -1,0 +1,13 @@
+.block-big {
+    padding: 1%;
+    min-width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border: 1px solid #1affff;
+}
+.block-sm {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #1affff;
+}

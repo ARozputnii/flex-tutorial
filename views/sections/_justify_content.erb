@@ -1,13 +1,13 @@
 <section>
-  <h2 class="title">flex-direction: row;</h2>
-  <h4 class="title">Направление укладки элементов по осям</h4>
+  <h2 class="title">justify content;</h2>
+  <h4 class="title">Выравнивание flex-элементов по главной оси текущей</h4>
 
   <div class="flex">
     <div class="blocks-sm">
       <h2>display: flex;</h2>
-      <h2>-webkit-flex-direction: row;</h2>
-      <div class="flex-direction_row">
-        <% 3.times do |i| %>
+      <h2>-webkit-justify-content: flex-start;</h2>
+      <div class="justify-content_flex-start">
+        <% 5.times do |i| %>
           <div class="block-sm"><h3><%= i + 1 %></h3></div>
         <% end %>
       </div>
@@ -15,9 +15,9 @@
 
     <div class="blocks-sm">
       <h2>display: flex;</h2>
-      <h2>-webkit-flex-direction: row-reverse;</h2>
-      <div class="flex-direction_row-reverse">
-        <% 3.times do |i| %>
+      <h2>-webkit-justify-content: flex-end;</h2>
+      <div class="justify-content_flex-end">
+        <% 5.times do |i| %>
           <div class="block-sm"><h3><%= i + 1 %></h3></div>
         <% end %>
       </div>
@@ -27,9 +27,10 @@
   <div class="flex">
     <div class="blocks-sm">
       <h2>display: flex;</h2>
-      <h2>-webkit-flex-direction: column;</h2>
-      <div class="flex-direction_column">
-        <% 2.times do |i| %>
+      <h2>-webkit-justify-content: space-between;
+      </h2>
+      <div class="justify-content_space-between">
+        <% 3.times do |i| %>
           <div class="block-sm"><h3><%= i + 1 %></h3></div>
         <% end %>
       </div>
@@ -37,9 +38,9 @@
 
     <div class="blocks-sm">
       <h2>display: flex;</h2>
-      <h2>-webkit-flex-direction: column-reverse;</h2>
-      <div class="flex-direction_column-reverse">
-        <% 2.times do |i| %>
+      <h2>-webkit-justify-content: space-around;</h2>
+      <div class="justify-content_space-around">
+        <% 3.times do |i| %>
           <div class="block-sm"><h3><%= i + 1 %></h3></div>
         <% end %>
       </div>

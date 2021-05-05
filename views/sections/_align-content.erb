@@ -1,0 +1,72 @@
+<section>
+  <h2 class="title">align content;</h2>
+  <h4 class="title">Выравнивание строк flex-элементов вдоль поперечной оси</h4>
+
+  <div class="flex">
+    <div class="blocks-sm">
+      <h2>display: flex;</h2>
+      <h2>-webkit-align-content: stretch;</h2>
+      <div class="align-content_stretch">
+        <% 5.times do |i| %>
+          <div class="block-sm"><h3><%= i + 1 %></h3></div>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="blocks-sm">
+      <h2>display: flex;</h2>
+      <h2>-webkit-align-content: flex-start;</h2>
+      <div class="align-content_flex-start">
+        <% 5.times do |i| %>
+          <div class="block-sm"><h3><%= i + 1 %></h3></div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex">
+    <div class="blocks-sm">
+      <h2>display: flex;</h2>
+      <h2>-webkit-align-content: flex-end;
+      </h2>
+      <div class="align-content_flex-end">
+        <% 3.times do |i| %>
+          <div class="block-sm"><h3><%= i + 1 %></h3></div>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="blocks-sm">
+      <h2>display: flex;</h2>
+      <h2>-webkit-align-content: center;</h2>
+      <div class="align-content_center">
+        <% 3.times do |i| %>
+          <div class="block-sm"><h3><%= i + 1 %></h3></div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex">
+    <div class="blocks-sm">
+      <h2>display: flex;</h2>
+      <h2>-webkit-align-content: space-around;
+      </h2>
+      <div class="align-content_space-around">
+        <% 3.times do |i| %>
+          <div class="block-sm"><h3><%= i + 1 %></h3></div>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="blocks-sm">
+      <h2>display: flex;</h2>
+      <h2>-webkit-align-content: space-between;</h2>
+      <div class="align-content_space-between">
+        <% 3.times do |i| %>
+          <div class="block-sm"><h3><%= i + 1 %></h3></div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>

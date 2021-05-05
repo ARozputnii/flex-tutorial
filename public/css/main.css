@@ -4,6 +4,7 @@
 body {
 	background: beige;
 }
+
 h1 {
 	font-size: 40px;
 	color: #00394d;
@@ -17,8 +18,11 @@ h3 {
 	text-align: center;
 	padding-top: 25%;
 }
+h4 {
+	color: #00394d;
+}
 .title {
-	font-size: 30px;
+	font-size: 25px;
 	margin: 2%;
 }
 

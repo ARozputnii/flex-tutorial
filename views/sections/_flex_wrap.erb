@@ -1,12 +1,13 @@
 <section>
   <h2 class="title">flex-wrap: nowrap;</h2>
+  <h4 class="title">Расположение элементов в одну или несколько строк</h4>
 
   <div class="flex">
     <div class="blocks-sm">
       <h2>display: flex;</h2>
       <h2>-webkit-flex-wrap: nowrap;</h2>
-      <div class="blocks-sm__flex-wrap_nowrap">
-        <% 3.times do |i| %>
+      <div class="flex-wrap_nowrap">
+        <% 10.times do |i| %>
           <div class="block-sm"><h3><%= i + 1 %></h3></div>
         <% end %>
       </div>
@@ -15,8 +16,8 @@
     <div class="blocks-sm">
       <h2>display: flex;</h2>
       <h2>-webkit-flex-direction: row-reverse;</h2>
-      <div class="blocks-sm__flex-direction_row-reverse">
-        <% 3.times do |i| %>
+      <div class="flex-wrap_wrap">
+        <% 10.times do |i| %>
           <div class="block-sm"><h3><%= i + 1 %></h3></div>
         <% end %>
       </div>
@@ -26,19 +27,9 @@
   <div class="flex">
     <div class="blocks-sm">
       <h2>display: flex;</h2>
-      <h2>-webkit-flex-direction: column;</h2>
-      <div class="blocks-sm__flex-direction_column">
-        <% 2.times do |i| %>
-          <div class="block-sm"><h3><%= i + 1 %></h3></div>
-        <% end %>
-      </div>
-    </div>
-
-    <div class="blocks-sm">
-      <h2>display: flex;</h2>
-      <h2>-webkit-flex-direction: column-reverse;</h2>
-      <div class="blocks-sm__flex-direction_column-reverse">
-        <% 2.times do |i| %>
+      <h2>-webkit-flex-wrap: wrap-reverse;</h2>
+      <div class="flex-wrap_wrap-reverse">
+        <% 20.times do |i| %>
           <div class="block-sm"><h3><%= i + 1 %></h3></div>
         <% end %>
       </div>

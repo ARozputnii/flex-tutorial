@@ -12,19 +12,99 @@
     border: 2px solid #1affff;
     background-color: #99ffff;
 }
-.blocks-sm__flex-direction_row {
+/*flex-direction*/
+.flex-direction_row {
     display: flex;
     -webkit-flex-direction: row;
 }
-.blocks-sm__flex-direction_row-reverse {
+.flex-direction_row-reverse {
     display: flex;
     -webkit-flex-direction: row-reverse;
 }
-.blocks-sm__flex-direction_column {
+.flex-direction_column {
     display: flex;
     -webkit-flex-direction: column;
 }
-.blocks-sm__flex-direction_column-reverse {
+.flex-direction_column-reverse {
     display: flex;
     -webkit-flex-direction: column-reverse;
+}
+/*flex-wrap*/
+.flex-wrap_nowrap {
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+}
+.flex-wrap_wrap {
+    display: flex;
+    -webkit-flex-wrap: wrap;
+}
+.flex-wrap_wrap-reverse {
+    display: flex;
+    -webkit-flex-wrap: wrap-reverse;
+}
+
+/*justify-content*/
+.justify-content_flex-start {
+    display: flex;
+    -webkit-justify-content: flex-start;
+}
+.justify-content_flex-end {
+    display: flex;
+    -webkit-justify-content: flex-end;
+}
+.justify-content_space-between {
+    display: flex;
+    -webkit-justify-content: space-between;
+}
+.justify-content_space-around {
+    display: flex;
+    -webkit-justify-content: space-around;
+}
+
+/*align-items*/
+.align-items_stretch {
+    display: flex;
+    -webkit-align-items: stretch;
+}
+.align-items_flex-start {
+    display: flex;
+    -webkit-align-items: flex-start;
+}
+.align-items_flex-end {
+    display: flex;
+    -webkit-align-items: flex-end;
+}
+.align-items_center {
+    display: flex;
+    -webkit-align-items: center;
+}
+.align-items_baseline {
+    display: flex;
+    -webkit-align-items: baseline;
+}
+
+/*align-content*/
+.align-content_stretch {
+    display: flex;
+    -webkit-align-items: stretch;
+}
+.align-content_flex-start {
+    display: flex;
+    -webkit-align-items: flex-start;
+}
+.align-content_flex-end {
+    display: flex;
+    -webkit-align-items: flex-end;
+}
+.align-content_center {
+    display: flex;
+    -webkit-align-items: center;
+}
+.align-content_space-around {
+    display: flex;
+    -webkit-align-content: space-around;
+}
+.align-content_space-between {
+    display: flex;
+    -webkit-align-content: space-between;
 }

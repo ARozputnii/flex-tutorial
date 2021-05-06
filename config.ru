@@ -1,2 +1,2 @@
-require "./flex"
+require "./app"
 run App

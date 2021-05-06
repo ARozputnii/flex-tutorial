@@ -1,1 +1,1 @@
-require './flex'
+require './app'

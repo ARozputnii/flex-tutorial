@@ -1,2 +1,2 @@
-gem 'sinatra'
-gem 'pg', group: :production
+source "https://rubygems.org"
+gem "sinatra"

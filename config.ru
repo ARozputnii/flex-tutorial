@@ -1,1 +1,2 @@
-run Sinatra::Application
+require "./flex"
+run App

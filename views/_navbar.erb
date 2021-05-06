@@ -1,0 +1,8 @@
+<nav class="justify-content_space-around">
+  <a href="/" class="nav-link  <%= 'active' if request.path_info == '/' %>">
+    Свойство контейнера Flex
+  </a>
+  <a href="/flex-elements" class="nav-link <%= 'active' if request.path_info == '/flex-elements' %>">
+    Свойство элемента Flex
+  </a>
+</nav>

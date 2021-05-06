@@ -1,0 +1,11 @@
+<section>
+  <h2 class="title">order: 2;</h2>
+  <h4 class="title">Определение порядка расстановки flex-элементов</h4>
+
+  <div class="blocks justify-content_space-between">
+    <div class="block-big" style="order: 5;"><h3>5</h3></div>
+    <% 4.times do |i| %>
+      <div class="block-big" style="order: <%= 4-i %>"><h3><%= i + 1 %></h3></div>
+    <% end %>
+  </div>
+</section>

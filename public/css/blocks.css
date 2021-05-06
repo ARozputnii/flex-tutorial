@@ -86,25 +86,25 @@
 /*align-content*/
 .align-content_stretch {
     display: flex;
-    -webkit-align-items: stretch;
+    -webkit-align-content: stretch;
 }
 .align-content_flex-start {
     display: flex;
-    -webkit-align-items: flex-start;
+    -webkit-align-content: flex-start;
 }
 .align-content_flex-end {
     display: flex;
-    -webkit-align-items: flex-end;
+    align-content: flex-end;
 }
 .align-content_center {
     display: flex;
-    -webkit-align-items: center;
+    align-content: center;
 }
 .align-content_space-around {
     display: flex;
-    -webkit-align-content: space-around;
+    align-content: space-around;
 }
 .align-content_space-between {
     display: flex;
-    -webkit-align-content: space-between;
+    align-content: space-between;
 }

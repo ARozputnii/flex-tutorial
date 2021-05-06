@@ -4,12 +4,13 @@
 body {
 	background: beige;
 }
-
-h1 {
-	font-size: 40px;
-	color: #00394d;
-	text-align: center;
-	padding-bottom: 1%;
+a, a:hover {
+	text-decoration: none;
+}
+nav {
+	padding: 1%;
+	margin: 1%;
+	border-bottom: 3px solid #018686;
 }
 h2 {
 	color: #00394d;
@@ -29,3 +30,19 @@ h4 {
 .flex {
 	display: flex;
 }
+
+.nav-link {
+	padding: 1%;
+	font-size: 40px;
+	color: #005f5f;
+	text-align: center;
+}
+.nav-link:hover {
+	color: #03a1a1;
+	cursor: pointer;
+	border-bottom: 1px solid #029292;
+}
+.active {
+	 color: #017ba7;
+	 border-bottom: 1px solid #014b4b;
+ }

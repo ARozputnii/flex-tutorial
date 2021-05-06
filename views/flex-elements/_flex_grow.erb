@@ -1,0 +1,11 @@
+<section>
+  <h2 class="title">flex-grow: 5;</h2>
+  <h4 class="title">Указывает фактор растягивания flex-элемента </h4>
+
+  <div class="blocks flex">
+    <div class="block-big" style="flex-grow: 5;"></div>
+    <% 4.times do |i| %>
+      <div class="block-big" style="flex-grow: <%= 4-i %>"></div>
+    <% end %>
+  </div>
+</section>

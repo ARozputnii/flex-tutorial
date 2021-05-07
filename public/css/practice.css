@@ -11,7 +11,7 @@ nav, .sidebar {
     background-color: #f3e559;
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 250px;
+    max-width: 250px;
 }
 nav {
     order: 1;

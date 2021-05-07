@@ -3,30 +3,37 @@ body {
 }
 .container {
     display: flex;
+    align-content: space-between;
+
 }
 nav, .sidebar {
     position:sticky;
     top: 0;
-    height: 100vh;
     text-align: center;
     background-color: #f3e559;
-    flex-grow: 0;
+    flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 15%;
 }
 nav {
     order: 1;
+    height: 100vh;
 }
 .main {
-    flex-grow: 1;
+    flex-basis: 500px;
+    flex-grow: 0;
     order: 2;
 }
 .sidebar {
     text-align: center;
     order: 3;
+    height: 300px;
 }
 .content{
-    margin: 30px;
+    margin: 10px;
     font-size: 30px;
     text-align: justify;
+}
+.border{
+    margin: 20px;
+    border: 2px solid black;
 }

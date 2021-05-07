@@ -3,8 +3,6 @@ body {
 }
 .container {
     display: flex;
-    align-content: space-between;
-
 }
 nav, .sidebar {
     position:sticky;
@@ -13,6 +11,7 @@ nav, .sidebar {
     background-color: #f3e559;
     flex-grow: 1;
     flex-shrink: 0;
+    flex-basis: 250px;
 }
 nav {
     order: 1;
@@ -20,7 +19,7 @@ nav {
 }
 .main {
     flex-basis: 500px;
-    flex-grow: 0;
+    flex-grow: 1;
     order: 2;
 }
 .sidebar {
@@ -34,6 +33,7 @@ nav {
     text-align: justify;
 }
 .border{
-    margin: 20px;
+    margin: 20px auto;
+    max-width: 500px;
     border: 2px solid black;
 }

@@ -47,7 +47,7 @@ header {
     text-align: center;
     background-color: #59f380;
 }
-header h1{
+header h1, footer h1{
     margin: 5px;
 }
 footer  {

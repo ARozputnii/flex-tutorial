@@ -4,20 +4,22 @@ body {
 .container {
     display: flex;
 }
-nav, .sidebar {
+.left-sidebar, .sidebar {
     position:sticky;
-    top: 0;
+    top: 50px;
     text-align: center;
     background-color: #f3e559;
     flex-grow: 1;
     flex-shrink: 0;
     max-width: 250px;
 }
-nav {
+.left-sidebar {
     order: 1;
     height: 100vh;
 }
 .main {
+    min-height: 100%;
+    margin-top: 50px;
     flex-basis: 500px;
     flex-grow: 1;
     order: 2;
@@ -36,4 +38,21 @@ nav {
     margin: 20px auto;
     max-width: 500px;
     border: 2px solid black;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 50px;
+    text-align: center;
+    background-color: #59f380;
+}
+header h1{
+    margin: 5px;
+}
+footer  {
+    position: relative;
+    text-align: center;
+    background-color: #59f380;
+    height: 50px;
 }
